@@ -74,6 +74,11 @@
     border-radius: 5px;
     display: flex;
     justify-content: center;
+    transition: background 1s;
+}
+.anuncios:hover, .anuncios:focus {
+    background-color: rgb(118, 0, 253);
+    border: 1px double rgb(47, 44, 255);
 }
 .imagem{
     width: auto;/*definição de contexto automatico*/
