@@ -1,0 +1,108 @@
+*{
+    margin: 0;/*expaço externo, afasta outros elementos*/
+    padding: 0; /*padding afasta o conteúdo das bordas(área interna)*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.corpo{
+     padding: 1rem; /* ira trazer um distanciamento da borda com uma distancia de 1rem (8px) */
+}
+.cabecalho{
+    background-color: grey;/*cor de fundo*/
+    border-radius: 5px; /* raio da borda*/
+    text-align: center;/*alinhamento de texto*/
+    color: aliceblue;/*muda a cor somente do texto*/
+    padding: 1rem; 
+}
+.sessao{
+    display: flex;/*deixar flexivel o display*/
+    flex-wrap: wrap;/*permiti que quebre linhas de display*/
+    width: calc(100% - 2rem);/*largura que a tag consome*/
+    padding: 1rem;
+    background-color: rgb(70, 86, 100);
+    margin: 1rem 0 1rem 0;
+    border-radius: 5px;
+    gap: 1rem;/*distanciamento entre estruturas/tags*/
+}
+.titulo-nav{
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(113, 116, 139);
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;/*alinha o conteúdo conforme nossa necessidade*/
+}
+.nav-links{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 20px;
+    gap: 1em;
+}
+.links{
+    text-decoration: none;
+    color: #ffffff;
+}
+.sessao-semantica{
+    background-color: #a9afcc;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 1rem;
+    flex-direction: column;
+}
+.article-div{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 1rem;
+    width: calc(100% - 2rem);
+    margin: 1rem;
+    background-color: lightgrey;
+    gap: 1rem;
+}
+.anuncios{
+    width: 17%;
+    border: 1px solid black;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+.imagem{
+    width: auto;/*definição de contexto automatico*/
+    height: auto;
+    border-radius: 5px;
+}
+.texto{
+    padding: 1em;
+    writing-mode: horizontal-tb;
+    width: 90%;
+}
+.texto-vert{
+    writing-mode: vertical-rl;
+}
+.rodape{
+    background-color: gray;
+    border-radius: 5px;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column; /*direção que fica orientado*/
+    gap: 1rem;
+    padding: 1rem;
+}
+.article-text{
+    align-items: center;
+    width: 40%;
+    padding: 2em;
+}
+.title-article{
+    width: 100%;
+}

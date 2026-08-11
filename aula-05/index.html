@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Semântico</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="corpo">
    <header class="cabecalho">
@@ -14,24 +15,39 @@
             <div class="nav-links">
                 <a href="" class="links">inicio</a>
                 <a href="" class="links">meio</a>
-                <a href="" class="links">fim</a>
+                <a href="#final" class="links">fim</a>
             </div>
             <h1 class="texto">Nav (menu de Navegação)</h1>
         </nav>
         <section class="sessao-semantica">
             <div class="articles-div">
                 <article class="article-div">
-                <h1 class="0title-articlçe">Article 1</h1>
+                <h1 class="title-article">Article 1</h1>
                 <p class="artile-text">
-                    <em>Esse texto esta em italíco com ênfase semantica</em>. <b> essa tag deixa o texto em negrito de forma apenas visual.</b>
+                    <em>Esse texto esta em italíco com ênfase semantica</em>. <sub>Aqui estamos separando o texto com sublinhação. </sub><b> Essa tag deixa o texto em negrito de forma apenas visual.</b>
                 </p>
                 </article>
                 <article class="article-div">
                     <h1 class="title-article">Article 2</h1>
-                    <p class="article-text"><strong>para deixar o texto mais destacado usamos a tag atrong </strong>. <small>Para deixar o texto pequeno usamos a tag small</small>. <i>e em itálico usamos a tag i, mas para termos técnicos, pensamentos e expressões em outro idioma.</i></p>
+                    <p class="article-text"><strong>Para deixar o texto mais destacado usamos a tag atrong </strong>. <small>Para deixar o texto pequeno usamos a tag small</small>. <i>e em itálico usamos a tag i, mas para termos técnicos, pensamentos e expressões em outro idioma.</i></p>
                 </article>
             </div>
+            <div class="articles-div">
+                <time datetime="2026-06-08T14:30:00">08 de junho ás 14:30</time>
+                <figure class="figura">
+                    <img src="./lavandario.png" alt="Imagem de Lavandeiro" class="imagem">
+                    <figcaption>Imagem Térrea do Lavandário da colonia witmarsum</figcaption>
+                </figure>
+                <h1>Lorem <mark>ipsum dolor,</mark> sit amet consecteturadipisicing elit.<h1>
+            </div>
         </section>
+        <aside class="anuncios">
+        <h1 class="texto-vert">Aside (anunciuos, links secundarios, etc...)</h1>
+        </aside>
     </section>
+    <footer id="final" class="rodape">
+        <h1>footer (rodapé)</h1>
+        <address>santosnetopaulo90@gmail.com</address>
+    </footer>
 </body>
 </html>
