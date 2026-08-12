@@ -1,0 +1,72 @@
+@import url("styles/header.css");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+:root{
+    --fonte-otimas-vibracoes: "Great Vibes", cursive;
+    --font-segoe: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --color-light-blue: #2787b4;
+    --color-red:red;
+    --color-cyan:rgb(4, 211, 210);
+    --color-cyan:rgb(4, 211, 210);
+    --color-brown: #702709;
+    --color-white: white;
+    --color-purple: #7FFFD4;
+}
+
+body{
+  background-color: var(--color-light-blue);
+  font-family: var(--font-segoe);
+  margin: 7rem;
+  padding: 0;
+}
+.apresentacao{
+    color: var(--color-red);
+    font-family: var(--font-segoe);
+    font-size: larger;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: var(--color-cyan);
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+.interesses-01{
+    color: var(--color-brown);
+    font-family: var(--font-segoe);
+    font-size: xx-large;
+    margin: auto;
+    padding: 1rem;
+}
+.interesses{
+    color: var(--color-white);
+    font-family: var(--font-segoe);
+    font-size: larger;
+    margin: 1rem;
+    padding: 0;    
+}
+.subtitulo{
+    color: var(--color-brown);
+    font-family: var(--font-segoe);
+    font-size: xx-large;
+    margin: auto;
+    padding: 1rem;
+}
+.css{
+    font-family:var(--font-segoe);
+    font-size: larger;
+    color: var(--color-red);
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: var(--color-cyan);
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+.cabecalho-rodape{
+    font-family: var(--font-segoe);
+    color: var(--color-white);
+}
+
+.rodape{
+    color: #6d0d99;
+}
