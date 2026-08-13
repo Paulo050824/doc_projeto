@@ -1,0 +1,11 @@
+body{
+    background-color: #3464ac;
+}
+.titulo, .aprensetacao, .subtitulo, .topicos{
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: justify;
+    gap: 1rem;
+
+
+}

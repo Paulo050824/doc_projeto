@@ -5,12 +5,11 @@
     --fonte-otimas-vibracoes: "Great Vibes", cursive;
     --font-segoe: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --color-light-blue: #2787b4;
-    --color-red:red;
-    --color-cyan:rgb(4, 211, 210);
+    --color-dodgerblue:rgb(0,0,128);
     --color-cyan:rgb(4, 211, 210);
     --color-brown: #702709;
     --color-white: white;
-    --color-purple: #7FFFD4;
+    --color-light-green: #7FFFD4;
 }
 
 body{
@@ -20,9 +19,9 @@ body{
   padding: 0;
 }
 .apresentacao{
-    color: var(--color-red);
+    color: var(--color-dodgerblue);
     font-family: var(--font-segoe);
-    font-size: larger;
+    font-size: 25px;
     border: 3px solid black;
     border-radius: 5px;
     background-color: var(--color-cyan);
@@ -31,42 +30,46 @@ body{
     padding: 1rem;
 }
 .interesses-01{
-    color: var(--color-brown);
-    font-family: var(--font-segoe);
+    color: var(--color-white);
     font-size: xx-large;
     margin: auto;
     padding: 1rem;
+    font-family: var(--fonte-otimas-vibracoes);
+    font-size: 65px;
+
 }
 .interesses{
-    color: var(--color-white);
-    font-family: var(--font-segoe);
-    font-size: larger;
+    color: var(--color-light-green);
+    font-size: 30px;
     margin: 1rem;
     padding: 0;    
+    font-family: var(--fonte-otimas-vibracoes);
 }
 .subtitulo{
-    color: var(--color-brown);
+    color: var(--color-white);
     font-family: var(--font-segoe);
-    font-size: xx-large;
+    font-size: 65px;
     margin: auto;
     padding: 1rem;
+    font-family: var(--fonte-otimas-vibracoes);
 }
 .css{
     font-family:var(--font-segoe);
-    font-size: larger;
-    color: var(--color-red);
+    font-size: 25px;
+    color: var(--color-dodgerblue);
     border: 3px solid black;
     border-radius: 20px;
-    background-color: var(--color-cyan);
+    background-color:var(--color-cyan);
     width: 100%;
     margin: auto;
     padding: 1rem;
 }
 .cabecalho-rodape{
-    font-family: var(--font-segoe);
-    color: var(--color-white);
+    font-family:var(--font-segoe);
 }
 
 .rodape{
-    color: #6d0d99;
+    color: #ffffff;
+    font-family: var(--font-segoe);
+
 }
