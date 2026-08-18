@@ -23,3 +23,6 @@
     color: var(--color-light-green);
     text-decoration: none; /*remove os aspectos de link da tag "a"*/
 }
+.cabecalho-rodape{
+    font-family: var(--fonte-otimas-vibracoes);
+}

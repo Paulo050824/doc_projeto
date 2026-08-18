@@ -1,0 +1,17 @@
+nome = input("Digite seu nome:")
+idade = int(input("Digite sua idade:"))
+peso = float(input("Digite seu peso(kg):"))
+altura = float(input("Digite sua altura(m):"))
+imc = peso / (altura*altura)
+
+print(nome, "\nimc:", imc, "\n")
+print("Seu imc é:", imc)
+
+print("| IMC            | Classificação      |")
+print("| -------------- | ------------------ |")
+print("| Menor que 18,5 | Abaixo do peso     |")
+print("| 18,5 a 24,9    | Peso normal        |")
+print("| 25 a 29,9      | Sobrepeso          |")
+print("| 30 a 34,9      | Obesidade grau I   |")
+print("| 35 a 39,9      | Obesidade grau II  |")
+print("| 40 ou mais     | Obesidade grau III |")

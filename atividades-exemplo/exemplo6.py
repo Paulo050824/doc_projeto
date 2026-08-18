@@ -1,0 +1,7 @@
+nome = input("Digite seu nome aqui: ")
+idade = int(input("Digite sua idade aqui: "))
+cidade = input("Digite sua cidade aqui: ")
+print("=====CADASTRO=====")
+print("Nome:", nome)
+print("Idade:", idade)
+print("Cidade", cidade)
