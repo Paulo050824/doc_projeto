@@ -1,0 +1,5 @@
+idade = int(input("Digite sua idade: "))
+if (idade >= 18):#essa é a condição desse codigo (Se)
+    print("Você é maior de idade")
+else:# essa é a condição desse codigo (se não)
+    print("Você não é maior de idade")
